@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+  
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -7,9 +8,13 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <!--Java Script-->
+    
 
     <title>Takuma Movies</title>
     <link rel="stylesheet" href="CSS/style.css">
+
   </head>
   <body>
     <nav class="navbar fixed-top navbar-dark bg-dark d-flex justify-content-center">
@@ -48,203 +53,252 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+
+
+
       <div class="alert alert-danger container" role="alert">
-        Filmes
+        Filmes 
+        <button type="button" class=" btn btn-outline-danger" id="sumirfilmes">Ocultar</button>
+    <button type="button" class=" btn btn-outline-dark " id="aparecerfilmes">Mostrar</button>
       </div>
-      <div class="container-md">
-  <div class="row">
-    <div class="col-md">
-      <div class="card " style="width: 18rem;">
-        <img src="img/filme1.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Gigantes de Aço</h5>
-          <p class="card-text">Em um futuro próximo, as máquinas substituem os homens no ringue. As lutas de boxe, nesse contexto, acontecem entre robôs de alta tecnologia. Charlie, um ex-lutador frustrado, não consegue se adaptar. Quando tudo parece perdido, ele se... </p>
-        </div>
-        <div class="row-6">
-          <div class="col">
-            <p>View</p>
+      
+      <div class="row container-fluid " id="pfilmes">
+        <div class="col-md-4 ">
+          <div class="card">
+            <img src="img/filme1.jpg" class="card-img-top" alt="Gigantes de Aço">
+            <div class="card-body">
+              <h5 class="card-title">Gigantes de Aço</h5>
+              <p class="card-text">
+                Em um futuro próximo, as máquinas substituem os homens no ringue. As lutas de boxe, nesse contexto, acontecem entre robôs de alta tecnologia. Charlie, um ex-lutador frustrado, não consegue se adaptar. Quando tudo parece perdido, ele se...
+              </p>
+              <br>
+              <div class="row ">
+                <div class="col-md-6">
+                  <a href="#" class="btn btn-primary">Ver</a>
+                </div>
+                <div class="col-md-6">
+                  <p class="text-muted time">127min</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="row-6">
-          <div class="col">
-            <p>127Min</p>
+        <div class="col-md-4 ">
+          <div class="card">
+            <img src="img/filme2.jpg" class="card-img-top" alt="Diario de Uma Paixão">
+            <div class="card-body">
+              <h5 class="card-title">Diario de Uma Paixão</h5>
+              <p class="card-text">
+                Na década de 40, o operário Noah Calhoun e a rica Allie estão desesperadamente apaixonados, mas os pais da jovem não aprovam o namoro. Quando Noah vai para a Segunda Guerra Mundial, parece ser o fim do romance. Enquanto isso, Allie...
+              </p>
+              <br>
+              <div class="row">
+                <div class="col-md-6">
+                  <a href="#" class="btn btn-primary">Ver</a>
+                </div>
+                <div class="col-md-6">
+                  <p class="text-muted time">123min</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/filme3.jpg" class="card-img-top" alt="Cidade dos Anjos">
+            <div class="card-body">
+              <h5 class="card-title">Cidade dos Anjos</h5>
+              <p class="card-text">
+                Em Los Angeles, uma dedicada cirurgiã (Meg Ryan) fica arrasada quando perde um paciente durante uma operação, no mesmo instante em que um anjo (Nicolas Cage), que estava na sala de cirurgia, começa a se sentir atraído por ela. Em...
+              </p>
+              <br><br>
+              <div class="row">
+                <div class="col-md-6">
+                  <a href="#" class="btn btn-primary">Ver</a>
+                </div>
+                <div class="col-md-6">
+                  <p class="text-muted time">113min</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Fim Filmes-->
+
+<div class="alert alert-primary container" role="alert" >
+  <p>Séries</p>
+  <button type="button" class=" btn btn-outline-danger" id="sumirseries">Ocultar</button>
+  <button type="button" class=" btn btn-outline-dark" id="aparecerseries">Mostrar</button>
+</div>
+<div class="row container-fluid" id="pseries">
+  <div class="col-md-4">
+    <div class="card">
+      <img src="img/serie1.jpg" class="card-img-top" alt="Ragnarok">
+      <div class="card-body">
+        <h5 class="card-title">Ragnarok</h5>
+        <p class="card-text">
+          Em uma cidade norueguesa envenenada pela poluição e abalada por geleiras derretendo, o fim dos tempos parece real. Só uma lenda poderá combater um mal antigo.
+        </p>
+        <div class="row">
+          <div class="col-md-6">
+            <a href="#" class="btn btn-primary">Ver</a>
+          </div>
+          <div class="col-md-6">
+            <p class="text-muted time">45min/ep</p>
           </div>
         </div>
       </div>
     </div>
-    <div class="col-md">
-      <div class="card-md " style="width: 18rem;">
-        <img src="img/filme2.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Diario de Uma Paixão</h5>
-          <p class="card-text">Na década de 40, o operário Noah Calhoun e a rica Allie estão desesperadamente apaixonados, mas os pais da jovem não aprovam o namoro. Quando Noah vai para a Segunda Guerra Mundial, parece ser o fim do romance. Enquanto isso, Allie...</p>
-        </div>
-        <div class="row-6">
-          <div class="col">
-            <p>View</p>
+  </div>
+  <div class="col-md-4">
+    <div class="card">
+      <img src="img/serie2.jpg" class="card-img-top" alt="Heroes">
+      <div class="card-body">
+        <h5 class="card-title">Heroes</h5>
+        <p class="card-text">
+          Criada por Tim Kring, Heroes conta a história de um grupo de pessoas comuns de diferentes partes do mundo que descobrem ter habilidades extraordinárias. O que eles não sabem é que...
+        </p>
+        <div class="row">
+          <div class="col-md-6">
+            <a href="#" class="btn btn-primary">Ver</a>
           </div>
-        </div>
-        <div class="row-6">
-          <div class="col">
-            <p>123Min</p>
+          <div class="col-md-6">
+            <p class="text-muted time">45min/ep</p>
           </div>
         </div>
       </div>
     </div>
-    <div class="col-md">
-      <div class="card-md " style="width: 18rem;">
-        <img src="img/filme3.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Cidade dos Anjos</h5>
-          <p class="card-text">Em Los Angeles, uma dedicada cirurgiã (Meg Ryan) fica arrasada quando perde um paciente durante uma operação, no mesmo instante em que um anjo (Nicolas Cage), que estava na sala de cirurgia, começa a se sentir atraído por ela. Em...</p>
-        </div>
-        <div class="row-6">
-          <div class="col">
-            <p>View</p>
+  </div>
+  <div class="col-md-4">
+    <div class="card">
+      <img src="img/serie3.jpg" class="card-img-top" alt="Imagem da Série Dexter">
+      <div class="card-body">
+        <h5 class="card-title">SmallVille</h5>
+        <p class="card-text">
+          Antes da vida como Super-Homem, o jovem Clark Kent encara os problemas da adolescência enquanto aprende a controlar seus poderes e usá-los para...
+        </p>
+        <div class="row">
+          <div class="col-md-6">
+            <a href="#" class="btn btn-primary">Ver</a>
           </div>
-        </div>
-        <div class="row-6">
-          <div class="col">
-            <p>113Min</p>
+          <div class="col-md-6">
+            <p class="text-muted time">43min/ep</p>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-<div class="alert alert-primary container mt-5" role="alert">
-  Series
+<!--FIm Series-->
+<br>
+<div class="alert alert-warning container" role="alert" >
+  <p>Animes</p>
+  <button type="button" class=" btn btn-outline-danger" id="sumiranimes">Ocultar</button>
+  <button type="button" class=" btn btn-outline-dark " id="apareceranimes">Mostrar</button>
 </div>
-<div class="container-md">
-  <div class="row">
-    <div class="col-md">
-      <div class="card-md " style="width: 18rem;">
-        <img src="img/serie1.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Ragnarok</h5>
-          <p class="card-text">Em uma cidade norueguesa envenenada pela poluição e abalada por geleiras derretendo, o fim dos tempos parece real. Só uma lenda poderá combater um mal antigo.</p>
-        </div>
-        <div class="row-6">
-          <div class="col">
-            <p>View</p>
+<div class="row container-fluid" id="panimes">
+  <div class="col-md-4">
+    <div class="card">
+      <img src="img/anime1.jpg" class="card-img-top" alt="No Game no Life">
+      <div class="card-body">
+        <h5 class="card-title">No Game no Life</h5>
+        <p class="card-text">
+          A história gira em torno do garoto Sora e da garota Shiro, dois irmãos que carregam a reputação de serem NEETs brilhantes. Os dois hikikomoris são gamers conhecidos por toda a internet pelos seus feitos brilhantes, enquanto...
+        </p>
+        <br><br>
+        <div class="row">
+          <div class="col-md-6">
+            <a href="#" class="btn btn-primary">Ver</a>
           </div>
-        </div>
-        <div class="row-6">
-          <div class="col">
-            <p>45Min</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md">
-      <div class="card-md " style="width: 18rem;">
-        <img src="img/serie2.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Heroes</h5>
-          <p class="card-text">Criada por Tim Kring, Heroes conta a história de um grupo de pessoas comuns de diferentes partes do mundo que descobrem ter habilidades extraordinárias. O que eles não sabem é que...</p>
-        </div>
-        <div class="row-6">
-          <div class="col">
-            <p>View</p>
-          </div>
-        </div>
-        <div class="row-6">
-          <div class="col">
-            <p>45Min</p>
+          <div class="col-md-6">
+            <p class="text-muted time">23min/ep</p>
           </div>
         </div>
       </div>
     </div>
-    <div class="col-md">
-      <div class="card-md " style="width: 18rem;">
-        <img src="img/serie3.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Smallville</h5>
-          <p class="card-text">Antes da vida como Super-Homem, o jovem Clark Kent encara os problemas da adolescência enquanto aprende a controlar seus poderes e usá-los para...</p>
-        </div>
-        <div class="row-6">
-          <div class="col">
-            <p>View</p>
+  </div>
+  <div class="col-md-4">
+    <div class="card">
+      <img src="img/anime2.jpg" class="card-img-top" alt="Hajimete no Gal">
+      <div class="card-body">
+        <h5 class="card-title">Hajimete no Gal</h5>
+        <p class="card-text">
+          Com o começo do novo período escolar, começa também um novo período de encontros. Diante de sua sala de aula cheia de casaizinhos, Jun'Ichi Hashiba fica perturbado. "Por que eu ainda sou virgem?" Quando seus amigos lhe contam que a...
+        </p>
+        <br>
+        <div class="row">
+          <div class="col-md-6">
+            <a href="#" class="btn btn-primary">Ver</a>
+          </div>
+          <div class="col-md-6">
+            <p class="text-muted time">24min/ep</p>
           </div>
         </div>
-        <div class="row-6">
-          <div class="col">
-            <p>43Min</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card">
+      <img src="img/anime3.jpg" class="card-img-top" alt="Kanojo, Okarishimasu">
+      <div class="card-body">
+        <h5 class="card-title">Kanojo, Okarishimasu</h5>
+        <p class="card-text">
+          Depois de ser rejeitado pela sua ex-namorada, Kazuya Kinoshita decide entrar em um aplicativo para celular que permite alugar uma namorada. Em sua primeira pesquisa, ele encontra Chizuru Mizuhara, uma garota linda e aparentemente perfeita...
+        </p>
+        <br>
+        <div class="row">
+          <div class="col-md-6">
+            <a href="#" class="btn btn-primary">View</a>
+          </div>
+          <div class="col-md-6">
+            <p class="text-muted time">24min/ep</p>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-<div class="alert alert-warning container mt-5" role="alert">
-  Animes
-</div>
-<div class="container-md">
-  <div class="row">
-    <div class="col-md">
-      <div class="card-md " style="width: 18rem;">
-        <img src="img/anime1.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">No Game No Life</h5>
-          <p class="card-text">A história gira em torno do garoto Sora e da garota Shiro, dois irmãos que carregam a reputação de serem NEETs brilhantes. Os dois hikikomoris são gamers conhecidos por toda a internet pelos seus feitos brilhantes, enquanto...</p>
-        </div>
-        <div class="row-6">
-          <div class="col">
-            <p>View</p>
-          </div>
-        </div>
-        <div class="row-6">
-          <div class="col">
-            <p>23Min</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md">
-      <div class="card-md " style="width: 18rem;">
-        <img src="img/anime2.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Hajimete no Gal</h5>
-          <p class="card-text">Com o começo do novo período escolar, começa também um novo período de encontros. Diante de sua sala de aula cheia de casaizinhos, Jun'Ichi Hashiba fica perturbado. "Por que eu ainda sou virgem?" Quando seus amigos lhe contam que a...</p>
-        </div>
-        <div class="row-6">
-          <div class="col">
-            <p>View</p>
-          </div>
-        </div>
-        <div class="row-6">
-          <div class="col">
-            <p>24Min</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md">
-      <div class="card-md " style="width: 18rem;">
-        <img src="img/anime3.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Kanojo, Okarishimasu</h5>
-          <p class="card-text">Depois de ser rejeitado pela sua ex-namorada, Kazuya Kinoshita decide entrar em um aplicativo para celular que permite alugar uma namorada. Em sua primeira pesquisa, ele encontra Chizuru Mizuhara, uma garota linda e aparentemente perfeita...</p>
-        </div>
-        <div class="row-6">
-          <div class="col">
-            <p>View</p>
-          </div>
-        </div>
-        <div class="row-6">
-          <div class="col">
-            <p>24Min</p>
-          </div>
-        </div>
-      </div>
-    </div>
+<!--Fim Animes-->
+<div class="container">
+  <div class="cores">
+    <h5 style="text-align: center;">Cores: </h5>
+    <button type="button" class="btn btn-primary" id="fundoPrimary">Fundo Primary</button>
+    <button type="button" class="btn btn-secondary" id="fundoSecondary">Fundo Secondary</button>
+    <button type="button" class="btn btn-success" id="fundoSuccess">Fundo Success</button>
+    <button type="button" class="btn btn-danger" id="fundoDanger">Fundo Danger</button>
+    <button type="button" class="btn btn-warning" id="fundoWarning">Fundo Warning</button>
+    <button type="button" class="btn btn-info" id="fundoInfo">Fundo Info</button>
+    <button type="button" class="btn btn-light" id="fundoLight">Fundo Light</button>
+    <button type="button" class="btn btn-dark" id="fundoDark">Fundo Dark</button>
+    <button type="button" class="btn btn-outline-info" id="semFundo">Remover Fundo</button>
   </div>
+</div>
+<br>
+<br>
+<div class="container">
+  <form>
+    <div class="form-group">
+      <label for="nome">Nome: </label>
+      <input type="text" class="form-control" id="nome">
+    </div>
+    <div class="form-group">
+      <label for="email">E-Mail: </label>
+      <input type="email" class="form-control" id="email">
+    </div>
+    <div class="form-group">
+      <label for="mensagem">Mensagem: </label>
+      <textarea class="form-control" id="mensagem"></textarea>
+    </div>
+    <button type="button" class="btn btn-primary" id="enviar">Enviar</button>
+  </form>
 </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/42df7c5a8c.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
   </body>
 </html>
